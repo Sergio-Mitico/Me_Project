@@ -1,0 +1,33 @@
+	// FONTS------->
+
+@mixin descr-text_body() {
+	font-family: Georgia, serif;
+	font-size: 14px;
+	line-height: 25px;
+	color: $text-descr-body;
+}
+
+@mixin descr-text_down() {
+	font-family: Georgia, serif;
+	font-size: 16px;
+		line-height: 25px;
+	color: $text-descr-body;
+}
+
+@mixin title-body {
+	font-size: 30px;
+	color: $title-discript;
+	font-family: 'Sintony', sans-serif;	
+}
+
+@mixin discription-body {
+	font-size: 30px;
+	margin-top: 45px;
+	line-height: 25px;
+	padding-bottom: 30px;
+	color: $title-discript;
+	font-family: 'Sintony', sans-serif;	
+}
+
+
+// ----------------------------------------
